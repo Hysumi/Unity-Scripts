@@ -2,19 +2,19 @@
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
 public class FadeInOut : MonoBehaviour {
 
     public Image FadeImg;
     public float fadeSpeed = 1.5f;
     public bool sceneStarting = true;
 
-
+    /*
     void Awake()
     {
         //Deixa a imagem ocupando a tela toda
         FadeImg.rectTransform.localScale = new Vector2(Screen.width, Screen.height);
     }
+    */
 
     void FadeToClear()
     {
@@ -29,8 +29,7 @@ public class FadeInOut : MonoBehaviour {
         FadeImg.color = Color.Lerp(FadeImg.color, Color.black, fadeSpeed * Time.deltaTime);
     }
 
-
-    void StartScene()
+    public void StartScene()
     {
         //Se a cena começa, deixa a imagem transparente
         FadeToClear();
