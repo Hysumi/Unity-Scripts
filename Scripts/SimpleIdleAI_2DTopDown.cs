@@ -1,16 +1,18 @@
 ﻿using UnityEngine;
 
-public class SimpleIdleIA_2DTopDown : MonoBehaviour {
+public class SimpleIdleAI_2DTopDown : MonoBehaviour {
 
     Vector2 direction;
     public float maxTime, velocity;
     float actualTime, angle;
 
-	void Update ()
+    /*
+    void Update ()
     {
         Timmer();
         Idle();
     }
+    */
 
     void Idle()
     {
