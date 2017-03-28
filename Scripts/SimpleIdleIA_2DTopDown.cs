@@ -6,7 +6,6 @@ public class SimpleIdleIA_2DTopDown : MonoBehaviour {
     public float maxTime, velocity;
     float actualTime, angle;
 
-	// Update is called once per frame
 	void Update ()
     {
         Timmer();
