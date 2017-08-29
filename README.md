@@ -1,3 +1,5 @@
 # Unity Scripts
 
-Scripts prontos para usos determinados em Unity.
+Scripts prontos para determinados usos em Unity.
+`Última versão testada: v.5.6`
+
