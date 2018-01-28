@@ -30,32 +30,32 @@
     * Determine o tamanho do grupo.
     * Arraste os áudios (músicas ou sfx) para o Inspector. 
  * Para `Música`, utilizar a função: 
-    * `fadeDuration` é do tipo `Float`, ele determina o tempo de transição entre a música atual e a próxima. Recebe 1f por padrão. 
+    * `fadeDuration`: É do tipo `Float`. Determina o tempo de transição entre a música atual e a próxima. Recebe 1f por padrão. 
   ```Javascript
   AudioManager.instance.PlayMusic(AudioClip, fadeDuration);
   ```
  * Para `Sfx 3D`:
     ```Javascript
-    //Toca um sfx aleatória do grupo. nomeDoGrupo: string; position: Vector3;
-    AudioManager.instance.PlaySound(nomeDoGrupo, position);
+    //Toca um sfx aleatória do grupo. groupName: string; position: Vector3;
+    AudioManager.instance.PlaySound(groupName, position);
 
-    //Toca um sfx do grupo determinada pelo nome do arquivo. nomeDoGrupo: string; nomeDoSfx: string; position: Vector3; 
-    AudioManager.instance.PlaySound(nomeDoGrupo, nomeDoSfx, position);
+    //Toca um sfx do grupo determinada pelo nome do arquivo. groupName: string; sfxName: string; position: Vector3; 
+    AudioManager.instance.PlaySound(groupName, sfxName, position);
     
-    //Toca um sfx do grupo determinada pela posição na ordem do grupo. nomeDoGrupo: string; idSfx: int; position: Vector3; 
-    AudioManager.instance.PlaySound(nomeDoGrupo, idSfx, position);
+    //Toca um sfx do grupo determinada pela posição na ordem do grupo. groupName: string; idSfx: int; position: Vector3; 
+    AudioManager.instance.PlaySound(groupName, idSfx, position);
     ```
 
  * Para `Sfx 2D`:
     ```Javascript
-    //Toca um sfx aleatória do grupo. nomeDoGrupo: string; 
-    AudioManager.instance.PlaySound(nomeDoGrupo);
+    //Toca um sfx aleatória do grupo. groupName: string; 
+    AudioManager.instance.PlaySound(groupName);
 
-    //Toca um sfx do grupo determinada pelo nome do arquivo. nomeDoGrupo: string; nomeDoSfx: string;
-    AudioManager.instance.PlaySound(nomeDoGrupo, nomeDoSfx);
+    //Toca um sfx do grupo determinada pelo nome do arquivo. groupName: string; sfxName: string;
+    AudioManager.instance.PlaySound(groupName, sfxName);
     
-    //Toca um sfx do grupo determinada pela posição na ordem do grupo. nomeDoGrupo: string; idSfx: int;
-    AudioManager.instance.PlaySound(nomeDoGrupo, idSfx);
+    //Toca um sfx do grupo determinada pela posição na ordem do grupo. groupName: string; idSfx: int;
+    AudioManager.instance.PlaySound(groupName, idSfx);
     
     ```
 
