@@ -42,8 +42,8 @@
     //Toca um sfx do grupo determinada pelo nome do arquivo. groupName: string; sfxName: string; position: Vector3; 
     AudioManager.instance.PlaySound(groupName, sfxName, position);
     
-    //Toca um sfx do grupo determinada pela posição na ordem do grupo. groupName: string; idSfx: int; position: Vector3; 
-    AudioManager.instance.PlaySound(groupName, idSfx, position);
+    //Toca um sfx do grupo determinada pela posição na ordem do grupo. groupName: string; sfxId: int; position: Vector3; 
+    AudioManager.instance.PlaySound(groupName, sfxId, position);
     ```
 
  * Para `Sfx 2D`:
@@ -54,8 +54,8 @@
     //Toca um sfx do grupo determinada pelo nome do arquivo. groupName: string; sfxName: string;
     AudioManager.instance.PlaySound(groupName, sfxName);
     
-    //Toca um sfx do grupo determinada pela posição na ordem do grupo. groupName: string; idSfx: int;
-    AudioManager.instance.PlaySound(groupName, idSfx);
+    //Toca um sfx do grupo determinada pela posição na ordem do grupo. groupName: string; sfxId: int;
+    AudioManager.instance.PlaySound(groupName, sfxId);
     
     ```
 
