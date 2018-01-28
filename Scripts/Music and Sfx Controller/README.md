@@ -28,7 +28,7 @@
     * Quantos grupos vai ter: `Sound Groups Size`.
     * No grupo, determine o `Group Name`.
     * Determine o tamanho do grupo.
-    * Arraste os Audios (músicas ou sfx) para o Inspector. 
+    * Arraste os áudios (músicas ou sfx) para o Inspector. 
  * Para `Música`, utilizar a função: 
     * `fadeDuration` é do tipo `Float`, ele determina o tempo de transição entre a música atual e a próxima. Recebe 1f por padrão. 
   ```Javascript
