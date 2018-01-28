@@ -10,7 +10,7 @@
 
 
 ## Utilizando Sfx No Objeto
- * Na classe do objeto que vai fazer o efeito sonoro, adicione um:
+ * Na classe do objeto que vai tocar o efeito sonoro, adicione um:
     ```
     public AudioClip nome;
     ```
