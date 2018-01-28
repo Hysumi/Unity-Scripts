@@ -1,5 +1,7 @@
 # Unity Music and Sfx Controller
 
+`Última versão testada: Unity 2017.1.0.f3`
+
 ## Configurando o Ambiente:
  1. Criar um `EmptyGameObject` e centralizar.
  2. Colocar o Script `AudioManager.cs` e `MusicManager.cs` no `EmptyGameObject` criado anteriormente.
@@ -61,6 +63,4 @@
  * PlayMusic: Melhor para música.
  * PlayClipAtPoint: Não pode ser usado para som 2D pois ele toca em um ponto específico no espaço 3D.
  * PlayOneShot: Som 2D. Não passa posição.
-
-`Última versão testada: Unity 2017.1.0.f3`
 
