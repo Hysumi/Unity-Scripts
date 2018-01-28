@@ -19,7 +19,7 @@
     //Para Som 3D
     AudioManager.instance.PlaySound(sfxName, position);
     //Para Som 2D
-    AudioManager.instance.PlaySOund(sfxName);
+    AudioManager.instance.PlaySound2D(sfxName);
     ``` 
 
 ## Utilizando Biblíoteca de Sfx ou Músicas
