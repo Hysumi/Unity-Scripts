@@ -12,14 +12,14 @@
 ## Utilizando Sfx No Objeto
  * Na classe do objeto que vai tocar o efeito sonoro, adicione um:
     ```
-    public AudioClip nome;
+    public AudioClip sfxName;
     ```
  * Na função em que for ativar o som, por o código:
     ```Javascript
     //Para Som 3D
-    AudioManager.instance.PlaySound(clip, position);
+    AudioManager.instance.PlaySound(sfxName, position);
     //Para Som 2D
-    AudioManager.instance.PlaySOund(clip);
+    AudioManager.instance.PlaySOund(sfxName);
     ``` 
 
 ## Utilizando Biblíoteca de Sfx ou Músicas
