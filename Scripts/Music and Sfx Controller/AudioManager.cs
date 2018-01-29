@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour {
 
     public static AudioManager instance;
     Transform audioListener;
-    Transform playerT;
+    //Transform playerT;
 
     SoundLibrary library;
 
@@ -61,10 +61,12 @@ public class AudioManager : MonoBehaviour {
 
     private void Update()
     {
+        /*
         if(playerT != null)
         {
             audioListener.position = playerT.position;
         }
+        */
     }
 
     public void SetVolume(float volumePercent, AudioChannel channel)
